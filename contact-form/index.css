@@ -1,0 +1,142 @@
+
+
+
+/* .blue {
+  border: solid 1px blue;
+} */
+
+
+
+.red {
+  border: solid 1px red;
+}
+
+/* .green {
+  border: solid 1px green;
+} */
+
+/* .yellow {
+  border: solid 1px yellow;
+} */
+
+.grey {
+  border: 10px grey;
+}
+
+.purple {
+  border: solid 1px purple
+}
+
+.orange{
+  border: solid 1px orange;
+}
+
+body {
+  height: 100vh;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.root-container {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.bg {
+  width: 40%;
+  background-image: url(./background.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.p {
+  color: white;
+}
+
+.logo-container {
+  height: 150px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 250px;
+}
+.logo-container p{
+  font-family: "Norse";
+  font-size: 100px;
+  color: white;
+  z-index: 1;
+  font-weight: 700;
+
+
+
+}
+.logo-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(5, 5, 5);
+  opacity: 0.5;
+}
+
+.logo {
+  z-index: 1;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.attribution a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+}
+
+.input-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-purple {
+  font-size: large;
+  height: 20vh;
+  display: flex;
+  justify-content: flex-start; 
+   align-items: flex-end;
+   margin-left: 5%;
+  margin-bottom: 5%; 
+  background-color: rgb(207, 163, 163) 50%;
+}
+.third-container{
+  margin: 05px;
+  display: flex;
+  height: 25vh;
+  background-color: rgb(134, 84, 84) 50%;
+}
+
+.button-container{
+  display: flex;
+  /* height: vh; */
+  background-color: rgb(91, 82, 82) 50%;
+}
