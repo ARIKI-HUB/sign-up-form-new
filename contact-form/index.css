@@ -58,6 +58,7 @@ h2 {
 }
 
 .p {
+  margin-top: 25px;
   color: white;
 }
 
@@ -136,6 +137,7 @@ h2 {
 }
 
 .button-container{
+  margin: 05px;
   display: flex;
   /* height: vh; */
   background-color: rgb(91, 82, 82) 50%;
