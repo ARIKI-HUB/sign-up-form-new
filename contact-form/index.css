@@ -1,34 +1,29 @@
-
-
-
-/* .blue {
-  border: solid 1px blue;
-} */
-
-
-
-.red {
-  border: solid 1px red;
+.blue {
+  border: solid 5px blue;
 }
 
-/* .green {
-  border: solid 1px green;
-} */
+.red {
+  border: solid 5px red;
+}
 
-/* .yellow {
-  border: solid 1px yellow;
-} */
+.green {
+  border: solid 5px green;
+}
+
+.yellow {
+  border: solid 5px yellow;
+}
 
 .grey {
   border: 10px grey;
 }
 
 .purple {
-  border: solid 1px purple
+  border: solid 5px purple;
 }
 
-.orange{
-  border: solid 1px orange;
+.orange {
+  border: solid 5px orange;
 }
 
 body {
@@ -70,15 +65,12 @@ h2 {
   position: relative;
   margin-top: 250px;
 }
-.logo-container p{
+.logo-container p {
   font-family: "Norse";
   font-size: 100px;
   color: white;
   z-index: 1;
   font-weight: 700;
-
-
-
 }
 .logo-background {
   position: absolute;
@@ -87,7 +79,7 @@ h2 {
   right: 0;
   bottom: 0;
   background: rgb(5, 5, 5);
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .logo {
@@ -123,22 +115,22 @@ h2 {
   font-size: large;
   height: 20vh;
   display: flex;
-  justify-content: flex-start; 
-   align-items: flex-end;
-   margin-left: 5%;
-  margin-bottom: 5%; 
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
   background-color: rgb(207, 163, 163) 50%;
 }
-.third-container{
+.third-container .purple {
   margin: 05px;
   display: flex;
   height: 25vh;
   background-color: rgb(134, 84, 84) 50%;
 }
 
-.button-container{
+.button-container {
   margin: 05px;
   display: flex;
   /* height: vh; */
-  background-color: rgb(91, 82, 82) 50%;
+  background-color: rgb(225, 11, 11) 50%;
 }
